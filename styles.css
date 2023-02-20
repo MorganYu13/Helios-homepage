@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: url("sydney.jpg") no-repeat; 
+    background-size: cover;
+    letter-spacing: 1px;
+}
+
+.full-logo {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    padding-left: 420px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 40px;
+    transition: all 300ms ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ffa05a;
+    font-size: 17px;
+    transition: all 300ms ease-in-out;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 73px;
+    padding-top: 35px;
+}
+
+button {
+    color: white;
+    font-weight: 500;
+    font-size: 20px; 
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    border: 0.1px solid #FCFCFB;
+    background-color : transparent;
+    padding: 26px 40px;
+    border-radius: 100px;
+    transition: all .5s ease;
+}
+
+button:hover {
+    color: #FCFCFB;
+    border: 1px solid #FCFCFB;
+    background-color: rgba(255, 160, 90, 0.2);
+}
+
+.banner button {
+    margin-top: 100px;
+}
+
+.banner h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 89px;
+}
+
+.banner p {
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.banner {
+    padding-left: 73px;
+    padding-top: 75px;
+}
+
+.panel {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.content h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 89px;
+    padding-bottom: 10px;
+    text-align: right;
+    padding-top: 100px;
+}
+
+.content-1 p {
+    margin-right: -60px;
+}
+
+.content-1 h1 {
+    margin-right: -60px;
+}
+
+.content p {
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+    padding-bottom: 53px;
+    text-align: right;
+}
+
+.content button {
+    float: center;
+}
+
+.content button:hover {
+    float: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content-1 {
+    background: rgba(68, 57, 72, 0.8);
+    padding-right: 140;
+    padding-left: 150;
+    text-align: right;
+    margin-left: -24px;
+}
+
+.content-2 {
+    align-content: center;
+    padding-right: 50;
+    padding-left: 50.26;
+    text-align: center;
+}
+
+.content-3 {
+    padding-right: 90;
+    padding-left: 76;
+    text-align: center;
+}
+
+.panel .content-1 {
+    background: linear-gradient(45deg, rgba(68, 57, 72, 0.9) 8%, rgba(51, 89, 99, 0.9) 26%, rgba(48, 74, 36, 0.9) 43%, rgba(72, 87, 32, 0.9) 60%, rgba(87, 81, 27, 0.9)70%, rgba(120, 50, 36, 0.9) 80%, rgb(143, 135, 121, 0.9) 90%, rgba(68, 57, 72, 0.9) 100%);
+    background-size:  2500% 400%;
+    animation: gradient 24s ease infinite;
+}
+
+.panel .content-2 {
+    background: linear-gradient(225deg, rgba(135, 117, 117, 0.93) 8%, rgba(70, 65, 56, 0.93) 26%, rgba(101, 94, 81, 0.93) 43%, rgba(89, 70, 44, 0.93) 60%, rgba(130, 111, 89, 0.93)70%, rgba(87, 85, 81, 0.93) 80%, rgba(84, 71, 48, 0.93) 90%, rgba(84, 75, 59, 0.93) 100%);
+    background-size:  2500% 400%;
+    animation: gradient 24s ease infinite;
+}
+
+.panel .content-3 {
+    background: linear-gradient(225deg, rgba(45, 51, 53, 0.93) 8%, rgba(41, 41, 42, 0.93) 26%, rgba(57, 59, 70, 0.93) 43%, rgba(56, 58, 65, 0.93) 60%, rgba(44, 43, 48, 0.93)70%, rgba(45, 46, 53, 0.93) 80%, rgba(63, 63, 72, 0.93) 90%, rgba(26, 27, 31, 0.93) 100%);
+    background-size:  2500% 400%;
+    animation: gradient 10s ease infinite;
+}    
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+.panel-2, .panel-3{
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.footer {
+    margin: -13px; 
+    background-color: rgba(51,72,68,0.8);
+    padding: 50px 280px;
+    padding-bottom: 12px;
+}
+
+.footer-logo-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo-text {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.footer-logo-text h3 {
+    font-size: 30px; 
+    color:#ffa05a; 
+    font-weight: 800;
+}
+
+.footer-links {
+    padding-left: 1260px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.footer-links a:hover {
+    color: #ffa05a;
+    transition: all 300ms ease-in-out;
+}

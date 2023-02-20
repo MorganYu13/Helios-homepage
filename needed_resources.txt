@@ -1,0 +1,6 @@
+logo-large.svg
+land_lake_map.svg
+building.svg
+roads.svg 
+logo.svg 
+sydney3.jpg
